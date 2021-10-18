@@ -1,7 +1,236 @@
-<html>
-  <body>
-    <h1>The Michael of Henries</h1>
-    <p>The website I have made:</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="Resources/css/index.css" type="text/css" rel="stylesheet">
+   <title>CSS Declarations</title>
+</head>
+<body>
+
+    <!-- Title -->
+    <header><h1>Common CSS Declarations</h1></header>
+
+    <!-- COLOR -->
+    <header><h2 id="color">COLOR</h2></header>
+
+    <!-- Color Commands -->
+    <h3><span id="colorone">C</span><span id="colortwo">o</span><span id="colorthree">l</span><span id="colorfour">o</span><span id="colorfive">r</span></h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>For Red: <em><span class="selector">p</span> { <span class="call">color</span>: <span class="value">red</span>; }</em></p>
+
+    <!-- Color Outcome -->
+    <ul class="colorlist">
+      <li id="red">Red</li>
+      <li id="orange">Orange</li>
+      <li id="yellow">Yellow</li>
+      <li id="green">Green</li>
+      <li id="blue">Blue</li>
+      <li id="purple">Purple/Violet</li>
+      <li id="pink">Pink</li>
+    </ul>
+
+    <!-- Background Color Commands -->
+    <h3 id="bgc">Background Color</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>For Red: <em><span class="selector">p</span> { <span class="call">background-color</span>: <span class="value">red</span>; }</em></p>
+
+    <!-- Background Color Outcome -->
+    <ul class="colorlist">
+      <li id="bcred">Red</li>
+      <li id="bcorange">Orange</li>
+      <li id="bcyellow">Yellow</li>
+      <li id="bcgreen">Green</li>
+      <li id="bcblue">Blue</li>
+      <li id="bcpurple">Purple/Violet</li>
+      <li id="bcpink">Pink</li>
+    </ul>
+
+    <!-- Font Styling Header -->
+    <header><h2 id="fontstyle">Font Styling</h2></header>
+
+    <!-- Font Families Commands -->
+    <h3 id="oleo">Font Families (Also Known as Typeface)</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+      <p>Serif: <em><span class="selector">p</span> { 
+        <span class="call">font-family</span>: 
+        <span class="valuetwo">serif</span>; }</em></p>
+      <p>Sans-Serif: <em><span class="selector">p</span> { 
+        <span class="call">font-family</span>: 
+        <span class="valuetwo">sans-serif</span>; }</em></p>
+      <p>Monospace: <em><span class="selector">p</span> { 
+        <span class="call">font-family</span>: 
+        <span class="valuetwo">monospace</span>; }</em></p>
+      <p>Cursive: <em><span class="selector">p</span> { 
+        <span class="call">font-family</span>: 
+        <span class="valuetwo">cursive</span>; }</em></p>
+      <p>Fantasy: <em><span class="selector">p</span> { 
+        <span class="call">font-family</span>: 
+        <span class="valuetwo">fantasy</span>; }</em></p>
+      <p>Callback Fonts: <em><span class="selector">p</span> { 
+        <span class="call">font-family</span>: 
+        <span class="valuefive">"Abril Fatface"</span>, 
+        <span class="valuetwo">sans-serif</span>; }</em></p>
+
+    <!-- Typeface Outcome -->
+    <ul class="list">
+      <li id="serif">This displays a "serif" typeface value</li>
+      <li id="sans-serif">This displays a "sans serif" typeface value</li>
+      <li id="monospace">This displays a "Monospace" typeface value</li>
+      <li id="cursive">This displays a "Cursive" typeface value</li>
+      <li id="fantasy">This displays a "Fantasy" typeface value</li>
+      <li id="callback">This displays an "Abril Fatface" typeface value, but if the font is unavailable, it will call back to the next available "serif" font</li>
+    </ul>
+
+    <!-- Font Sizing Commands -->
+    <h3 id="sizing">Font Sizing</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>Size by Pixels: <em><span class="selector">p</span> { 
+      <span class="call">font-size</span>: 
+      <span class="valuethree">25px</span>; }</em></p>
+    <p>Size by Relativity: <em><span class="selector">p</span> { 
+      <span class="call">font-size</span>: 
+      <span class="valuethree">1.6em</span>; }</em></p>
+
+    <!-- Font Size Outcome -->
+    <ul class="list">
+      <li id="pixel">This sentence has a size of 25 pixels.</li>
+      <li id="relative">This sentence is 1.6 times its normal size.</li>
+    </ul>
+
+    <!-- Text Effects Commands -->
+    <h3 id="effect">Text Effects</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>Text Shadow Effect: <em><span class="selector">p</span> { 
+      <span class="call">text-shadow</span>: 
+      <span class="valuethree">3px 3px</span> 
+      <span class="value">grey</span>; }</em></p>
+    <p>Text "Shade" Effect: <em><span class="selector">p</span> { 
+      <span class="call">text-shadow</span>: 
+      <span class="valuethree">1px 1px 1px</span> 
+      <span class="value">black</span>; }</em></p>
+    <p>Box Shadow Effect: <em><span class="selector">p</span> { 
+      <span class="call">box-shadow</span>: 
+      <span class="valuethree">10px 10px</span> 
+      <span class="value">black</span>; }</em></p>
+
+    <!-- Text Effect Outcome -->
+    <ul class="list">
+      <li id="shadow">This text has a grey shadow effect.</li>
+      <li id="shade">This white text has a black shadow (shade) effect.</li>
+      <li id="boxshadow">This box has a black shadow effect.</li>
+    </ul>
+
+    <!-- Box Model Header -->
+    <header><h2 id="boxmodel">The Box Model</h2></header>
+
+    <!-- Margin Commands -->
+    <h3 id="margin">Margin</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>Margin: <em><span class="selector">p</span> { 
+      <span class="call">margin</span>: 
+      <span class="valuethree">10px</span>; }</em></p>
+    <p>There is also <em><span class="selector">p</span> { 
+      <span class="call">margin-left</span>: 
+      <span class="valuethree">10px</span>; } { 
+        <span class="call">margin-right</span>: 
+        <span class="valuethree">10px</span>; }</em></p>
+      <p id="margintop"><em><span class="selector">p</span> { 
+        <span class="call">margin-top</span>: 
+        <span class="valuethree">10px</span>; } { 
+        <span class="call">margin-bottom</span>: 
+        <span class="valuethree">10px</span>; }</em></p>
+      <p>To make things simpler: <em><span class="selector">p</span> { 
+        <span class="call">margin</span>: 
+        <span class="valuethree">10px 10px</span>; }</em></p>
+      <p>The first <em><span class="valuethree">10px</span></em> represents the <em><span class="call">top</span></em> and <em><span class="call">bottom</span></em> values. The second <em><span class="valuethree">10px</span></em> represents the <em><span class="call">left</span></em> and <em><span class="call">right</span></em> values.</p>
+
+    <!-- Margin Box Outcome -->
+    <ul class="list">
+      <li id="marbox">This box has a margin of 20 pixels all around it.</li>
+    </ul>
+
+    <!-- Padding Commands -->
+    <h3 id="padding">Padding</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>Padding: <em><span class="selector">p</span> { 
+      <span class="call">padding</span>: 
+      <span class="valuethree">10px</span>; }</em></p>
+    <p>There is also <em><span class="selector">p</span> { 
+      <span class="call">padding-left</span>: 
+      <span class="valuethree">10px</span>; } { 
+        <span class="call">padding-right</span>: 
+        <span class="valuethree">10px</span>; }</em></p>
+      <p id="paddingtop"><em><span class="selector">p</span> { 
+        <span class="call">padding-top</span>: 
+        <span class="valuethree">10px</span>; } { 
+        <span class="call">padding-bottom</span>: 
+        <span class="valuethree">10px</span>; }</em></p>
+      <p>To make things simpler: <em><span class="selector">p</span> { 
+        <span class="call">padding</span>: 
+        <span class="valuethree">10px 10px</span>; }</em></p>
+      <p>The first <em><span class="valuethree">10px</span></em> represents the <em><span class="call">top</span></em> and <em><span class="call">bottom</span></em> values. The second <em><span class="valuethree">10px</span></em> represents the <em><span class="call">left</span></em> and <em><span class="call">right</span></em> values.</p>
+
+    <!-- Padding Outcome -->
+    <ul class="list">
+      <li id="padbox">This box contains 10 pixels of padding all around the content (text).</li>
+    </ul>
+
+    <!-- Border Header -->
+    <h3 id="border">Border</h3>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code:</h3>
+    <p>Regular Border: <em><span class="selector">p</span> { 
+      <span class="call">border</span>: 
+      <span class="valuethree">3px</span>; }</em></p>
+    <p>There is also <em><span class="selector">p</span> { 
+      <span class="call">border-left</span>: 
+      <span class="valuethree">3px</span>; } { 
+        <span class="call">border-right</span>: 
+        <span class="valuethree">3px</span>; }</em></p>
+
+    <!-- Border Outcome -->
+    <ul class="list">
+      <li>The blue dots that surround this text are part of a Border command:</li>
+      <li><span class="selector">p</span> { 
+        <span class="call">border</span>: 
+        <span class="valuethree">5px</span> 
+        <span class="valuetwo">dotted</span> 
+        <span class="value">blue</span>;</li>
+      <li><span class="call">border-radius</span>: 
+        <span class="valuethree">15px</span>; }</li>
+    </ul>
+
+    <!-- URL Command -->
+    <header><h2 id="url">Uniform Resource Locator (URL)</h2></header>
+
+    <!-- Example Code -->
+    <h3 class="example">Example Code (HTML):</h3>
+    <p>Url: <span class="selector">&lt;img</span>
+      <span class="href">src</span>=
+      <span class="valuefive">"https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png"</span>
+      <span class="selector">&gt;</span></p>
+
+    <!-- URL Outcome -->
+    <ul class="list">
+      <li>This is the outcome:</li>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png">
+    </ul>
+</body>
 </html>
