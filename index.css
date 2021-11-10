@@ -1,0 +1,392 @@
+a* {
+    line-height: 1.5em;
+ }
+  
+ /* Common CSS Declarations */
+ header h1 {
+   font-size: 3em;
+   color: rgb(0, 120, 255);
+   text-align: center;
+   border: 5px solid rgb(0, 250, 255);
+   border-radius: 60px;
+   background-color: rgb(0, 250, 255);
+ }
+ 
+ /* Color Header */
+ header h2#color {
+   color: #FFF;
+   font-size: 1.8em;
+   font-weight: thick;
+   letter-spacing: 3px;
+   padding: 5px 0px;
+ }
+ 
+ /* C O L O R Header Colors */
+ #colorone {
+   color: red;
+ }
+ 
+ #colortwo {
+   color: orange;
+ }
+ 
+ #colorthree {
+   color: yellow;
+ }
+ 
+ #colorfour {
+   color: green;
+ }
+ 
+ #colorfive {
+   color: blue;
+  }
+ 
+ /* Header Background */
+ header h2 {
+   text-align: center;
+   border-color: purple;
+   border-style: hidden solid;
+   border-width: 0px 15px;
+   background-color: violet;
+ }
+  
+  /* Commands Header */
+  h3 {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 1.6em;
+    text-decoration: overline underline;
+  }
+  
+  /* Example Style */
+  h3.example {
+    font-size: 1.5em;
+    color: forestgreen;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  /* Example Code Boldness */
+  p span {
+    font-weight: 600;
+  }
+  
+  /* Code Colors */
+  .selector {
+    color: crimson;
+  }
+  
+  .call {
+    color: dodgerblue;
+  }
+  
+  .value {
+    color: cornflowerblue;
+  }
+  
+  .valuetwo {
+    color: blueviolet;
+  }
+  
+  .valuethree {
+    color: darkorange;
+  }
+  
+  .valuefour {
+    color: blue;
+  }
+  
+  .valuefive {
+    color: goldenrod;
+  }
+ 
+  .href {
+    color: darkgreen;
+  }
+  
+  /* Color List Box Style */
+  .colorlist {
+    list-style-type: none;
+    border: 5px dotted blue;
+    border-radius: 15px;
+    padding-left: 150px;
+    line-height: 30px;
+    display: block;
+  }
+  
+  /* Separate Colors */
+  #red {
+    color: red;
+    margin: 5px 0px;
+    border-left: 30px solid red;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  #orange {
+    color: orange;
+    margin: 5px 0px;
+    border-left: 30px solid orange;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  #yellow {
+    color: yellow;
+    margin: 5px 0px;
+    border-left: 30px solid yellow;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  #green {
+    color: green;
+    margin: 5px 0px;
+    border-left: 30px solid green;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  #blue {
+    color: blue;
+    margin: 5px 0px;
+    border-left: 30px solid blue;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  #purple {
+    color: purple;
+    margin: 5px 0px;
+    border-left: 30px solid purple;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  #pink {
+    color: crimson;
+    margin: 5px 0px;
+    border-left: 30px solid crimson;
+    padding-left: 5px;
+    margin-right: 150px;
+  }
+  
+  /* Background Colors Header */
+  h3#bgc {
+    background-color: red;
+    margin: 0px 250px;
+    padding-top: 20px;
+  }
+  
+  /* Background Colors */
+  #bcred {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid red;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(255, 0, 0, 0.65);
+  }
+  
+  #bcorange {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid orange;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(255, 165, 0, 0.65);
+  }
+  
+  #bcyellow {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid yellow;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(255, 250, 0, 0.65);
+  }
+  
+  #bcgreen {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid green;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(0, 255, 0, 0.65);
+  }
+  
+  #bcblue {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid blue;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(0, 0, 255, 0.65);
+  }
+  
+  #bcpurple {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid purple;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(255, 0, 255, 0.65);
+  }
+  
+  #bcpink {
+    color: white;
+    margin: 5px 0px;
+    border-left: 30px solid crimson;
+    padding-left: 5px;
+    margin-right: 150px;
+    background-color: rgba(255, 0, 70, 0.65);
+  }
+  
+  /* Font Styling Header */
+  header h2#fontstyle {
+    color: #FFF;
+    font-size: 1.8em;
+    font-weight: thick;
+    letter-spacing: 3px;
+    padding: 5px 0px;
+  }
+  
+  h3#oleo {
+    font-family: 'Oleo Script', Georgia;
+  }
+  
+  /* Font List Box Style */
+  .list {
+    list-style-type: none;
+    border: 5px dotted blue;
+    border-radius: 15px;
+    line-height: 30px;
+    display: block;
+  }
+  
+  /* Typeface Outcomes */
+  #serif {
+    font-family: serif;
+  }
+  
+  #sans-serif {
+    font-family: sans-serif;
+  }
+  
+  #monospace {
+    font-family: monospace;
+  }
+  
+  #cursive {
+    font-family: cursive;
+  }
+  
+  #fantasy {
+    font-family: fantasy;
+  }
+  
+  #callback {
+    font-family: "Abril Fatface", serif;
+  }
+  
+  /* Font Sizing Header */
+  h3#sizing {
+    font-size: 2em;
+    letter-spacing: 20px;
+  }
+  
+  /* Font Size List */
+  #pixel {
+    font-size: 25px;
+  }
+  
+  #relative {
+    font-size: 1.6em;
+  }
+  
+  /* Text Effects Header */
+  h3#effect {
+    text-shadow: 2px 2px black;
+  }
+  
+  #shadow {
+    text-shadow: 3px 3px grey;
+  }
+  
+  #shade {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  #boxshadow {
+    color: white;
+    background-color: green;
+    padding: 20px;
+    margin-right: 150px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px black;
+  }
+  
+  /* Box Model Header */
+  header h2#boxmodel {
+    color: white;
+    font-size: 1.8em;
+    font-weight: thick;
+    letter-spacing: 3px;
+    padding: 5px 0px;
+  }
+  
+  /* Margin */
+  h3#margin {
+    border: 1px solid black;
+    padding-top: 20px;
+    margin: 0px 250px;
+  }
+  
+  p#margintop {
+    margin-left: 95px;
+  }
+  
+  li#marbox {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin: 20px;
+  }
+  
+  /* Padding */
+  h3#padding {
+    border: 1px solid black;
+    padding: 20px 0px;
+  }
+  
+  p#paddingtop {
+    margin-left: 95px;
+  }
+  
+  li#padbox {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 2px;
+    margin-right: 40px;
+  }
+  
+  h3#border {
+    border-color: black;
+    border-width: 6px;
+    border-style: double solid dotted dashed;
+    padding-top: 20px;
+  }
+  
+  h2#url {
+    color: white;
+    font-size: 1.8em;
+    font-weight: thick;
+    letter-spacing: 3px;
+    padding: 5px 0px;
+  }
+  
